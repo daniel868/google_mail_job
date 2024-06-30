@@ -72,7 +72,7 @@ public class GmailApiConfig {
     public Gmail gmailService(NetHttpTransport transport,
                               Credential credential,
                               JsonFactory jsonFactory) {
-        return new Gmail.Builder(transport, jsonFactory, new GoogleCredential())
+        return new Gmail.Builder(transport, jsonFactory, credential)
                 .setApplicationName(AppConstants.APPLICATION_NAME)
                 .build();
     }
