@@ -1,0 +1,129 @@
+{
+  "labels": [
+    {
+      "id": "CHAT",
+      "name": "CHAT",
+      "messageListVisibility": "hide",
+      "labelListVisibility": "labelHide",
+      "type": "system"
+    },
+    {
+      "id": "SENT",
+      "name": "SENT",
+      "messageListVisibility": "hide",
+      "labelListVisibility": "labelShow",
+      "type": "system"
+    },
+    {
+      "id": "INBOX",
+      "name": "INBOX",
+      "messageListVisibility": "hide",
+      "labelListVisibility": "labelShow",
+      "type": "system"
+    },
+    {
+      "id": "IMPORTANT",
+      "name": "IMPORTANT",
+      "messageListVisibility": "hide",
+      "labelListVisibility": "labelShow",
+      "type": "system"
+    },
+    {
+      "id": "TRASH",
+      "name": "TRASH",
+      "messageListVisibility": "hide",
+      "labelListVisibility": "labelHide",
+      "type": "system"
+    },
+    {
+      "id": "DRAFT",
+      "name": "DRAFT",
+      "messageListVisibility": "hide",
+      "labelListVisibility": "labelShow",
+      "type": "system"
+    },
+    {
+      "id": "SPAM",
+      "name": "SPAM",
+      "messageListVisibility": "hide",
+      "labelListVisibility": "labelHide",
+      "type": "system"
+    },
+    {
+      "id": "CATEGORY_FORUMS",
+      "name": "CATEGORY_FORUMS",
+      "type": "system"
+    },
+    {
+      "id": "CATEGORY_UPDATES",
+      "name": "CATEGORY_UPDATES",
+      "type": "system"
+    },
+    {
+      "id": "CATEGORY_PERSONAL",
+      "name": "CATEGORY_PERSONAL",
+      "type": "system"
+    },
+    {
+      "id": "CATEGORY_PROMOTIONS",
+      "name": "CATEGORY_PROMOTIONS",
+      "type": "system"
+    },
+    {
+      "id": "CATEGORY_SOCIAL",
+      "name": "CATEGORY_SOCIAL",
+      "type": "system"
+    },
+    {
+      "id": "STARRED",
+      "name": "STARRED",
+      "messageListVisibility": "hide",
+      "labelListVisibility": "labelShow",
+      "type": "system"
+    },
+    {
+      "id": "UNREAD",
+      "name": "UNREAD",
+      "type": "system"
+    },
+    {
+      "id": "Label_1",
+      "name": "Chitanţe",
+      "messageListVisibility": "show",
+      "labelListVisibility": "labelHide",
+      "type": "user"
+    },
+    {
+      "id": "Label_3",
+      "name": "Personale",
+      "type": "user"
+    },
+    {
+      "id": "Label_4",
+      "name": "Serviciu",
+      "messageListVisibility": "show",
+      "labelListVisibility": "labelHide",
+      "type": "user"
+    },
+    {
+      "id": "Label_5",
+      "name": "Junk E-mail",
+      "type": "user"
+    },
+    {
+      "id": "Label_6",
+      "name": "Deleted Items",
+      "type": "user"
+    },
+    {
+      "id": "Label_7",
+      "name": "Sent Items",
+      "type": "user"
+    },
+    {
+      "id": "Label_8",
+      "name": "[Imap]/Sent",
+      "type": "user"
+    }
+  ]
+}
