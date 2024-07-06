@@ -61,6 +61,8 @@ public class GmailApiConfig {
                         credentials.put(keyPair[0], keyPair[1]);
                     });
 
+            logger.info("Retrieved credentials: {}", credentials);
+
             if (credentials.size()!=AppConstants.CREDENTIALS_ARGS_SIZE){
                 throw new IllegalArgumentException("Invalid credentials arguments number");
             }
