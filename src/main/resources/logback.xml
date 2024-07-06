@@ -12,7 +12,7 @@
     <!-- File Appender -->
     <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
         <!-- Log file location -->
-        <file>application.log</file>
+        <file>/app/application.log</file>
 
         <!-- Rolling policy to handle log file rotation -->
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
