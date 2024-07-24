@@ -69,9 +69,7 @@ public class GmailApiConfig {
 
             byte[] credentialsAsBytes = objectMapper.writeValueAsBytes(credentials);
 
-            return GoogleCredential.fromStream(
-                    new ByteArrayInputStream(credentialsAsBytes)
-            );
+            return null;
         } catch (Exception e) {
             logger.error("Exception on reading credentials json:", e);
             throw new RuntimeException(e);
